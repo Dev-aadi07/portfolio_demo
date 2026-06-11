@@ -4,16 +4,16 @@ import Button from "../components/Button";
 const Hero = () => {
   const spanStyle = "pt-2 font-light text-xs text-gray-400"
   return (
-    <div className="w-full relative overflow-hidden bg-black px-6">
-      <div className="absolute right-0 top-40 w-125 h-125 rounded-full bg-orange-500/10 blur-[140px]">
-</div>
-      <div className="max-w-6xl mx-auto flex py-22 px-6">
+    <div id="home" className="w-full relative overflow-hidden min-h-screen px-6">
+      <div className="absolute right-0 top-40 w-125 h-125 rounded-full bg-orange-500/10 blur-[140px]"> </div>
+
+      <div className="max-w-6xl mx-auto flex py-36 px-6">
         <div className="left w-1/2 border flex flex-col gap-8">
 
           <span className="text-orange-500">AVAILABLE FOR WORK</span>
 
           <div className="text-white text-6xl font-bold">
-            <h1>Hi, I'm <span className="text-orange-500">Eliott</span>
+            <h1>Hi, I'm <span className="text-orange-500">Adarsh</span>
             </h1>
           </div>
 
@@ -66,7 +66,7 @@ const Hero = () => {
               />
           </div>
           
-          <div className="absolute bottom-27 right-1/3 z-10 px-5 py-3 text-white font-bold text-xs rounded-2xl bg-orange-500">
+          <div className="absolute bottom-42 right-1/3 z-10 px-5 py-3 text-white font-bold text-xs rounded-2xl bg-orange-500">
             Open to projects
           </div>
         </div>
