@@ -8,6 +8,7 @@ const Work = () => {
   return (
     <div id='work' className='w-full bg-black px-6'>
       <div className='max-w-6xl mx-auto py-22 px-6'>
+        
         <span className='text-orange-500 font-bold text-xs'>PORTFOLIO</span>
         <div className='text-white font-bold text-5xl flex justify-between items-end'>
           Selected work

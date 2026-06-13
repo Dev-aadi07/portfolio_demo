@@ -17,7 +17,7 @@ const Navbar = () => {
     "text-sm text-gray-400 hover:text-white transition duration-300";
 
   return (
-    <div className="fixed top-0 left-0 w-full z-50 border-b border-zinc-900 bg-black/80 backdrop-blur-md">
+    <div className="fixed top-0 left-0 w-full z-50 border-b border-zinc-900 bg-black/85 backdrop-blur-md">
       <div className="max-w-6xl mx-auto flex items-center justify-between px-6 py-3">
 
         <div 

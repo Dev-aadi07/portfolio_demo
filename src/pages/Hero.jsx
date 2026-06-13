@@ -8,7 +8,7 @@ const Hero = () => {
       <div className="absolute right-0 top-40 w-125 h-125 rounded-full bg-orange-500/10 blur-[140px]"> </div>
 
       <div className="max-w-6xl mx-auto flex py-36 px-6">
-        <div className="left w-1/2 border flex flex-col gap-8">
+        <div className="left w-1/2 flex flex-col gap-8">
 
           <span className="text-orange-500">AVAILABLE FOR WORK</span>
 
