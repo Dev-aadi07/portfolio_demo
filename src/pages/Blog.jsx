@@ -1,6 +1,8 @@
 import React from 'react'
 import MiniCard1 from '../components/MiniCard1'
 import laptop from '/assets/laptop.jpg'
+import laptop1 from '/assets/laptop1.jpg'
+import sd from '/assets/systemDesign.jpg'
 
 const Blog = () => {
   return (
@@ -22,14 +24,14 @@ const Blog = () => {
             para="After years of fighting specificity wars, here's what finally convinced me to make the switch."
           />
           <MiniCard1 
-            image={laptop}
+            image={sd}
             text1="Dev"
             date="Feb 21, 2025"
             headline="Building a design system from scratch in a weekend"
             para="Tokens, components, docs - the process I follow to spin up a coherent system in 48 hours."
           />
           <MiniCard1 
-            image={laptop}
+            image={laptop1}
             text1="Freelance"
             date="Jan 14, 2025"
             headline="5 lessons from my first year of full-time freelancing"
