@@ -12,6 +12,7 @@ const Hero = () => {
       delay,
       ease: "easeOut",
     },
+    viewport: {amount:0.2}
   });
 
   return (
@@ -103,6 +104,7 @@ const Hero = () => {
               delay: 0.2,
               ease: "easeOut",
             }}
+            viewport={{amount:0.2}}
           >
             <img
               src="/assets/profile.jpg"
@@ -119,6 +121,7 @@ const Hero = () => {
               duration: 0.5,
               delay: 1,
             }}
+            viewport={{amount:0.2}}
           >
             Open to projects
           </motion.div>

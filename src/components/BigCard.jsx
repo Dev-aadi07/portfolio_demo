@@ -19,7 +19,7 @@ const BigCard = ({image, imageHeight = "h-72", className, text1, text2, text3, t
           <div 
               className="w-16 h-8 px-4 rounded-full bg-zinc-800 
               flex justify-center items-center 
-              text-xs font-semibold text-orange-500 border border-zinc-500"
+              text-xs font-semibold text-orange-500 border border-zinc-700"
               >
               {text1}
             </div>

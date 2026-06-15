@@ -3,7 +3,7 @@ import { MdOutlineStarPurple500 } from "react-icons/md";
 
 const MiniCard = ({para, name, designation}) => {
   return (
-    <div className='w-1/3 bg-zinc-900 px-6 py-6 flex flex-col gap-2 rounded-xl border border-zinc-700'>
+    <div className='bg-zinc-900 px-6 py-6 flex flex-col gap-2 rounded-xl border border-zinc-700'>
       <div className='text-orange-500 flex gap-0.5 py-1'>
         <MdOutlineStarPurple500 />
         <MdOutlineStarPurple500 />
