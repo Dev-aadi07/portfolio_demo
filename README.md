@@ -92,6 +92,7 @@ npm run build
 * Creating modern portfolio designs
 
 ## 📸 Preview
+<img width="1918" height="902" alt="image" src="https://github.com/user-attachments/assets/56b262ff-a1c9-4819-bb87-78047ec9ecec" />
 
 A modern portfolio website featuring:
 
