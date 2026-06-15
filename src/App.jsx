@@ -7,6 +7,7 @@ import About from './pages/About'
 import Reviews from './pages/Reviews'
 import Blog from './pages/Blog'
 import Contact from './pages/Contact'
+import Footer from './components/Footer'
 
 const App = () => {
   return (
@@ -19,6 +20,7 @@ const App = () => {
       <Reviews/>
       <Blog/>
       <Contact/>
+      <Footer/>
     </div>
   )
 }

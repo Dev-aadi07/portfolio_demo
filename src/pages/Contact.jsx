@@ -1,9 +1,16 @@
 import React from "react";
 import Button from "../components/Button";
+import { CiMail } from "react-icons/ci";
+import { IoLogoLinkedin } from "react-icons/io";
+import { FaGithub } from "react-icons/fa";
 
 const Contact = () => {
   const inputStyle =
     "w-full bg-transparent border border-zinc-800 rounded-2xl px-5 py-4 text-white placeholder:text-zinc-500 outline-none focus:border-orange-500 transition";
+
+  const contactStyle = "cursor-pointer hover:text-zinc-300 transition duration-300"
+
+  const iconStyle = "bg-zinc-800 h-4 w-4 rounded-md"
 
   return (
     <div id="contact" className="w-full px-6">
@@ -29,9 +36,26 @@ const Contact = () => {
             </p>
 
             <div className="mt-12 flex flex-col gap-5 text-zinc-400">
-              <h2>hello@eliot.dev</h2>
-              <h2>linkedin.com/in/eliot-dev</h2>
-              <h2>github.com/eliot-dev</h2>
+              <div className="flex gap-2 items-center"> 
+                <CiMail className={iconStyle}/> 
+                <h2 className={contactStyle}>
+                   hello@eliot.dev
+                </h2>
+              </div>
+
+              <div className="flex gap-2 items-center">
+                <IoLogoLinkedin className={iconStyle}/>
+                <h2 className={contactStyle}>
+                  linkedin.com/in/eliot-dev
+                </h2>
+              </div>
+
+              <div className="flex gap-2 items-center">
+                <FaGithub className={iconStyle}/>
+                <h2 className={contactStyle}>
+                  github.com/eliot-dev
+                </h2>
+              </div>
             </div>
           </div>
 
